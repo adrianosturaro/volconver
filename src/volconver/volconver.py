@@ -28,6 +28,8 @@ def main():
     volconverter.registra_converter()
     den = volconverter.converters["Derivados"].dens20(20, 0.8)
     print(den)
+    den = volconverter.converters["Etanol"].dens20(20, 0.8)
+    print(den)
 
 
 if __name__ == "__main__":
